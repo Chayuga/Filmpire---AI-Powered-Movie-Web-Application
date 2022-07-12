@@ -18,6 +18,10 @@ module.exports = {
     'react',
   ],
   rules: {
+    quotes: ['error', 'single'],
+    semi: ['error', 'always'],
+    indent: ['error', 2],
+    'no-multi-spaces': ['error'],
     'react/react-in-jsx-scope': 0,
     'import/extensions': 0,
     'react/prop-types': 0,
