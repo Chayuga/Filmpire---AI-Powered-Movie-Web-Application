@@ -27,9 +27,6 @@ function Sidebar({ setMobileOpen }) {
   const classes = useStyles();
   const { data, isFetching } = useGetGenresQuery();
   const dispatch = useDispatch();
-
-  console.log(data);
-
   return (
     <>
 
